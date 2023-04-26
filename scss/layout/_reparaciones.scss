@@ -1,0 +1,54 @@
+.h2servicio{
+    display: flex;
+    color: $secundcolor;
+    flex-direction: column;
+align-items: center;
+}
+
+
+.divservicio{
+ display: flex;
+ flex-direction: column;
+ color: $secundcolor;
+ align-items: center;
+ padding: 10px;
+}
+.divservicio p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ulsection{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:auto ;
+    grid-template-areas: 'area1 area1 area1 area1'
+    'area2 area2 area2 area2'
+    'area3 area3 area3 area3'
+   ' area4 area4 area4 area4';
+
+}
+.ulsection ul {
+    list-style-type: none;
+    color: $secundcolor;
+    
+}
+.input{
+    color: $secundcolor;
+}
+
+.li1 {
+    grid-area: area1; 
+    padding: 10px;  
+}
+.li2 {
+    grid-area: area2;
+    padding: 10px; 
+}
+.li3 {
+    grid-area: area3;
+    padding: 10px; 
+}
+.li4 {
+    grid-area: area4;
+    padding: 10px; 
+}

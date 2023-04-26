@@ -1,0 +1,18 @@
+.h2contacto{
+    color:$secundcolor;
+    text-align: center;
+    padding: 1%;
+}
+.ulcontacto{
+    display: flex;
+  padding: 10px;
+  gap: 40px;
+  justify-content: center;
+}
+.divcontacto{
+    display: flex;
+    flex-direction: column;
+  padding: 10px;
+  gap: 40px;
+  justify-items: center;
+}

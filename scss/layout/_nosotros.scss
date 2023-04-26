@@ -1,0 +1,30 @@
+.divnosotros{
+    text-align: center;
+    color:$secundcolor;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1%;
+
+}
+.bossimg{
+    display: grid;
+    padding: 10px;
+    gap: 40px;
+    grid-template-columns: auto;
+    grid-template-rows: (2,1fr);
+    grid-template-areas: 'area1 area1'
+    'area2 area2';
+    justify-content: center;
+   object-fit: cover;
+}
+.divimg{
+    display: flex;
+    flex-direction: column;
+    color:$secundcolor;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.divimg img{
+    object-fit: cover;
+}

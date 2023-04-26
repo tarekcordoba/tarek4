@@ -1,0 +1,28 @@
+ .h2equipos{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: $secundcolor;
+     text-align: center;
+ }
+ 
+ .equipos{
+     display: flex;
+     flex-direction: column;
+     color: $secundcolor;
+     text-align: center;
+ }
+ .divequipos{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-template-rows: auto;
+    padding: 10px;
+    gap: 50px;
+    justify-items: center;
+ 
+ }
+ .divequipos img{
+     align-items: center;
+     width: 500px;
+     height: 500px;
+     
+ }
+ 
